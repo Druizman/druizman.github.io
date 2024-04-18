@@ -1,0 +1,43 @@
+<html>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu main main main main'
+    'menu menu right right right right'
+    'menu menu footer footer footer footer';
+  gap: 10px;
+  background-image: url(Family.jpeg);
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.695);
+  text-align: center;
+  padding: 40px 0;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+
+<body>
+<div class="grid-container">
+  <div class="item1">Curriculum & Portfolio | Daniel Ruiz</div>
+  <div class="item2">More than 21 years of experience in Manufacturing Processes in the Food and Beverage industry (Beer). A recognized leader for both his technical results and the development of high-performance work teams. Engineer with specialization in the area of Projects, expert in Maintenance Management and Industrial Automation, applied in the implementation of Industry 4.0 and Digital Transformation.</div>
+  <div class="item3">FullStack Developer Student</div>  
+  <div class="item4">MBA Projects Strategies PMM Bussines School, 2022.</div>
+  <div class="item5">Control & Automation Engineer</div>
+</div>
+
+</body>
+ <image src="Family.jpeg"
+
+ </html>
